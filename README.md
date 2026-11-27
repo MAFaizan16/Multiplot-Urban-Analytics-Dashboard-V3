@@ -73,8 +73,8 @@ The project combines seven CSV datasets, exploratory data analysis (EDA), numeri
 
 ```text
 urban-analytics-dashboard/
-├── Multiplotdashboardv4.py       # Expanded dashboard entry point
-├── Multiplotdashboardv3.py       # Original four-chart implementation
+├── Multiplotdashboardv3.py       # Expanded dashboard entry point
+├── Multiplotdashboardv2.py       # Original four-chart implementation
 ├── data_loader.py               # Dataset loading and validation
 ├── city_data.csv
 ├── city_climate_data.csv
@@ -83,7 +83,7 @@ urban-analytics-dashboard/
 ├── city_economy_data.csv
 ├── city_education_data.csv
 ├── city_snapshot_data.csv
-├── urban_report_v4.pdf           # Generated report
+├── urban_report_v3.pdf           # Generated report
 ├── requirements.txt
 ├── SOURCES.md                    # Data sources and quality notes
 └── README.md
@@ -112,14 +112,14 @@ A virtual environment is optional. The following instructions use your regular P
 5. Run the expanded dashboard:
 
    ```bat
-   py Multiplotdashboardv4.py
+   py Multiplotdashboardv3.py
    ```
 
 If `py` is unavailable, use:
 
 ```bat
 python -m pip install -r requirements.txt
-python Multiplotdashboardv4.py
+python Multiplotdashboardv3.py
 ```
 
 ## Run on macOS
@@ -128,7 +128,7 @@ Install Python 3 from [python.org](https://www.python.org/downloads/) if needed,
 
 ```bash
 python3 -m pip install -r requirements.txt
-python3 Multiplotdashboardv4.py
+python3 Multiplotdashboardv3.py
 ```
 
 ## Run on Linux
@@ -137,7 +137,7 @@ Open a terminal in the project folder:
 
 ```bash
 python3 -m pip install -r requirements.txt
-python3 Multiplotdashboardv4.py
+python3 Multiplotdashboardv3.py
 ```
 
 If macOS or Linux reports an externally managed Python environment, use a virtual environment instead of forcing a system-wide installation:
@@ -146,7 +146,7 @@ If macOS or Linux reports an externally managed Python environment, use a virtua
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-python Multiplotdashboardv4.py
+python Multiplotdashboardv3.py
 ```
 
 ## Dashboard Controls
@@ -165,18 +165,18 @@ The default command generates `urban_report_v4.pdf` in the project directory and
 Generate only the PDF (without opening the viewer):
 
 ```bat
-py Multiplotdashboardv4.py --no-show
+py Multiplotdashboardv3.py --no-show
 ```
 
 Export all report pages as PNG images in `report_pages/` as well as the PDF:
 
 ```bat
-py Multiplotdashboardv4.py --png --no-show
+py Multiplotdashboardv3.py --png --no-show
 ```
 
 On macOS and Linux, replace `py` with `python3`.
 
-The original four-chart dashboard can still be run using `py Multiplotdashboardv3.py` on Windows. It exports `urban_dashboard_v3.png`.
+The original four-chart dashboard can still be run using `py Multiplotdashboardv2.py` on Windows. It exports `urban_dashboard_v2.png`.
 
 ## Dataset Documentation
 
