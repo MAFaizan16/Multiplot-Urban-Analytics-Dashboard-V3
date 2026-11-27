@@ -1,0 +1,8 @@
+metric,city,value,unit,period,data_quality,source
+gcc_units,Hyderabad,515.0,count,FY2026E,sourced,Nasscom-Zinnov GCC Landscape Report 2026 (as published on zinnov.com)
+gcc_units,Bangalore,1080.0,count,FY2026E,sourced,Nasscom-Zinnov GCC Landscape Report 2026 (as published on zinnov.com)
+global2000_gcc_units,Hyderabad,165.0,count,FY2026E,sourced,Nasscom-Zinnov GCC Landscape Report 2026
+global2000_gcc_units,Bangalore,320.0,count,FY2026E,sourced,Nasscom-Zinnov GCC Landscape Report 2026
+it_exports_lakh_crore,Hyderabad,3.13,Rs lakh crore,FY2024-25,sourced,Telangana state IT exports (Telangana Socio Economic Outlook 2025) - state-level
+it_exports_lakh_crore,Bangalore,4.58,Rs lakh crore,FY2024-25,sourced,"Karnataka IT-BT exports (state IT minister, Assembly) - state-level"
+it_companies,Hyderabad,1500.0,count (1500+),2023,sourced,Wikipedia: Software industry in Telangana (IT/ITES companies in Hyderabad)
